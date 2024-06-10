@@ -1,0 +1,74 @@
+.register {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/sea-bay-waterfront-beach-50594.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .registerTitle {
+    font-size: 3rem; /* Adjust font size as needed */
+    margin-bottom: 2rem;
+  }
+  
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  
+  .registerForm > label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .registerForm > input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+  }
+  
+  .registersButton {
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  .registersButton:hover {
+    background-color: darkred; /* Adjust hover background color as needed */
+  }
+  
+  .loginsButton {
+    margin-top: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
+  .loginsButton .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .loginsButton .link:hover {
+    text-decoration: underline;
+  }
+  
+  .errorMsg {
+    color: lightred; /* Adjust error message color as needed */
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-top: 1rem;
+  }
+  
